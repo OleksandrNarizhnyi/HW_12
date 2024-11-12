@@ -1,0 +1,116 @@
+    1  git -v
+    2  #!/bin/bash/
+    3  date
+    4  echo 'Hello' $user
+    5  pwd
+    6  ps -ef | grep bioset | grep -v grep | wc -l
+    7  ls -la /etc/passwd | awk '{print $1}'
+    8  #!/bin/bash/
+    9  date
+   10  echo 'Hello' $user
+   11  pwd
+   12  ps -ef | grep bioset | grep -v grep | wc -l
+   13  ls -la /etc/passwd | awk '{print $1}'
+   14  #!/bin/bash/
+   15  date
+   16  echo 'Hello' $user
+   17  pwd
+   18  ps -ef | grep bioset | grep -v grep | wc -l
+   19  ls -la /etc/passwd | awk '{print $1}'
+   20  #!/bin/bash/
+   21  date
+   22  echo 'Hello' $user
+   23  pwd
+   24  ps -ef | grep bioset | grep -v grep | wc -l
+   25  ls -la /etc/passwd | awk '{print $1}'
+   26  [200~ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de~
+   27  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   28  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   29  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   30  ls
+   31  cd /git-branch
+   32  cd /usr/
+   33  ls
+   34  cd -
+   35  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   36  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   37  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   38  git clone https://github.com/OleksandrNarizhnyi/prakt_8.git
+   39  cd prakt_8/
+   40  git checkout -b feature1
+   41  git check
+   42  git checkout -b feature1
+   43  toch file1.txt
+   44  echo "Tekst Это ветка Feature1" >> file1.txt
+   45  echo "Tekst Вторая строчка" >> file1.txt
+   46  git add file1.txt 
+   47  git commit -m "Добавлен файл1 в feature1"
+   48  git checkout -b feature2
+   49  echo "Tekst Это ветка Feature2" >> file1.txt
+   50  echo "Tekst Вторая строчка" >> file1.txt
+   51  git add . 
+   52  git commit -m "Добавлен файл1 в feature2"
+   53  git checkout feature1
+   54  git log
+   55  git rebase feature2
+   56  git log
+   57  ls -la
+   58  git push origin feature1
+   59  git checkout feature2
+   60  git push origin -u feature2
+   61  git log --oneline --graph --all --decorate
+   62  git log --oneline --graph --all --decorate
+   63  echo "Tekst Вторая строчка" >> file2.txt
+   64  git add .
+   65  git commit -m "Добавлен файл2 в feature2"
+   66  git checkout feature1
+   67  git merge feature2
+   68  git push origin feature1
+   69  cd ~
+   70  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   71  git clone https://github.com/OleksandrNarizhnyi/HomeWork_12.git
+   72  cd HomeWork_12/
+   73  vim .gitignor
+   74  git add .gitignor 
+   75  git commit -m "Add '.gitignor'"
+   76  git push origin .gitignor
+   77  git push origin .gitignore
+   78  curl -O https://raw.githubusercontent.com/OleksandrNarizhnyi/HomeWork_12/refs/heads/main/.gitignore
+   79  git checkout -b feature
+   80  echo "Add file .gitignore" >> .gitignore
+   81  echo "Add file README" >> README.md
+   82  git add .
+   83  git commit -m "Chang and adding to feature"
+   84  git push origin feature
+   85  git commit --amend
+   86  git checkout main
+   87  git merge feature
+   88  history > history.txt
+   89  git add .
+   90  git commit -m "Add file with comand history"
+   91  git push origin main
+   92  git push origin main
+   93  ls
+   94  git add history.txt
+   95  git commit -m "Add file with comand history"
+   96  git push origin main
+   97  git status
+   98  git pull
+   99  git add history.txt 
+  100  git commit -m "Add file with comand history"
+  101  git push origin main
+  102  git pull щкшпшт
+  103  git pull origin
+  104  cd ~
+  105  git clone https://github.com/OleksandrNarizhnyi/HW_12.git
+  106  cd HW_12
+  107  git checkout -b feature
+  108  echo "Changes to file" >> .gitignore
+  109  echo "Changes to file" >> README.md
+  110  git add .
+  111  git commit -m "Add changes to files"
+  112  git push origin feature
+  113  git commit --amend
+  114  git checkout main
+  115  git merge feature
+  116  history > history.txt
